@@ -1,17 +1,30 @@
-# [GitHub Stats Visualization](https://github.com/jstrieb/github-stats)
+# GitHub Stats Visualization
+
+My personal instance of [jstrieb/github-stats](https://github.com/jstrieb/github-stats)
+(created from its template — all credit for the tool itself to Jacob Strieb).
+
+> **Setup incomplete:** the `generated` branch below still holds the
+> template's own demo output, not my stats — there's no `ACCESS_TOKEN`
+> repository secret configured yet, so the workflow has never run against my
+> account. Steps 1–6 in [Installation](#installation) below still need doing.
 
 <!--
 https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
 -->
 
 <div align="center">
-<a href="https://github.com/jstrieb/github-stats">
-<img src="https://github.com/jstrieb/github-stats/blob/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/generated/languages.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/generated/overview.svg#gh-light-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/generated/languages.svg#gh-light-mode-only" />
+<a href="https://github.com/KaiCryan/github-stats">
+<img src="https://github.com/KaiCryan/github-stats/blob/generated/overview.svg#gh-dark-mode-only" />
+<img src="https://github.com/KaiCryan/github-stats/blob/generated/languages.svg#gh-dark-mode-only" />
+<img src="https://github.com/KaiCryan/github-stats/blob/generated/overview.svg#gh-light-mode-only" />
+<img src="https://github.com/KaiCryan/github-stats/blob/generated/languages.svg#gh-light-mode-only" />
 </a>
 </div>
+
+The rest of this README is upstream's own documentation for setting up your
+own copy of the tool.
+
+---
 
 Generate visualizations of GitHub user and repository statistics with GitHub
 Actions. Visualizations can include data from private repositories, and from
